@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>UFO</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div>
+    <h2 style="color:white"; >UFO Sightings</h2>
+  </div>
+
+  <div class="container-fluid">
+          <div class="jumbotron"> 
+              <h1 class="text-center" style="color:white";>UFO Sightings</h1>
+              <h4 class="text-center" style="color:white";>The Truth Is Out There</h4>
+          </div>
+ </div>
+       
+          
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="form-group">
+          <input type="text" class="form-control" id="date/time" placeholder="date/time">
+          <a id="search" class="btn btn-default">Search</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>date/time</th>
+              <th>city</th>
+              <th>state</th>
+              <th>country</th>
+              <th>shape</th>
+              <th>durationMinutes</th>
+              <th>comment</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <ul class="pagination">
+      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+
+  <script src="data.js" type="text/javascript"></script>
+  <script src="index.js" type="text/javascript"></script>
+</body>
+
+</html>
